@@ -123,3 +123,40 @@ void loop() {
     Serial.println("Client disconnected");
   }
 }
+
+
+Sambungkan Komponen:
+
+Sambungkan sensor LM35 ke pin A0 pada Arduino.
+Sambungkan Ethernet Shield ke Arduino.
+Pastikan koneksi antara sensor dan Arduino benar.
+Jalankan Simulasi di Proteus:
+
+Buka Proteus dan buat skematik sesuai dengan sambungan perangkat keras.
+Tambahkan Virtual Terminal dan sambungkan ke pin RX dan TX Arduino.
+Jalankan simulasi dan cek output di Virtual Terminal.
+Penggunaan
+Monitor Suhu di Serial Monitor:
+
+Buka Serial Monitor di Arduino IDE (Ctrl+Shift+M).
+Lihat data suhu dan informasi pribadi yang ditampilkan.
+Akses Data via Web Browser:
+
+Pastikan Arduino terhubung ke jaringan yang sama dengan komputer Anda.
+Buka browser dan masukkan IP address yang ditampilkan di Serial Monitor.
+Anda akan melihat data suhu dan informasi pribadi yang ditampilkan di halaman web.
+Troubleshooting
+Virtual Terminal Tidak Menampilkan Data:
+
+Pastikan koneksi antara Arduino dan Virtual Terminal benar.
+Periksa pengaturan baud rate di Virtual Terminal dan pastikan sesuai dengan pengaturan di kode (Serial.begin(9600);).
+Data Tidak Muncul di Browser:
+
+Pastikan Ethernet Shield terhubung dengan benar.
+Pastikan Arduino menggunakan IP address yang valid dan tidak bentrok dengan perangkat lain di jaringan.
+Coba restart Arduino dan cek kembali koneksi jaringan.
+Lisensi
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
+
+Kontribusi
+Kontribusi selalu diterima! Silakan buat Pull Request atau buka Issue untuk mengajukan perbaikan atau fitur baru.
