@@ -1,8 +1,8 @@
 #include <UIPEthernet.h>
-//
+//agunghidayatulloh
 // Pengaturan IP Address
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(172, 20, 0, 33);
+IPAddress ip(192, 168, 1, 177);
 
 EthernetServer server(80);
 
@@ -10,8 +10,8 @@ EthernetServer server(80);
 const int sensorPin = A0;
 
 // Data diri
-String nama = "Agustina mega hartanti";
-String nim = "1462100";
+String nama = "Agung Hidayatulloh";
+String nim = "1462100022";
 String tanggalLahir = "10 maret 2002";
 String email = "agunghidayatulloh802@gmail.com";
 
