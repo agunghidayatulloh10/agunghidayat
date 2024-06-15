@@ -1,4 +1,3 @@
-# agunghidayat
 # Arduino Ethernet Temperature Monitoring
 
 Proyek ini adalah aplikasi sederhana yang menggunakan Arduino dan sensor suhu LM35 untuk memonitor suhu dan mengirim data melalui server Ethernet. Data suhu, bersama dengan beberapa informasi pribadi, ditampilkan di Serial Monitor dan dapat diakses melalui server web yang berjalan di Arduino.
@@ -122,41 +121,37 @@ void loop() {
     client.stop();
     Serial.println("Client disconnected");
   }
-}
-
-
-Sambungkan Komponen:
-
-Sambungkan sensor LM35 ke pin A0 pada Arduino.
-Sambungkan Ethernet Shield ke Arduino.
-Pastikan koneksi antara sensor dan Arduino benar.
-Jalankan Simulasi di Proteus:
-
-Buka Proteus dan buat skematik sesuai dengan sambungan perangkat keras.
-Tambahkan Virtual Terminal dan sambungkan ke pin RX dan TX Arduino.
-Jalankan simulasi dan cek output di Virtual Terminal.
+} 
+3.	Sambungkan Komponen:
+o	Sambungkan sensor LM35 ke pin A0 pada Arduino.
+o	Sambungkan Ethernet Shield ke Arduino.
+o	Pastikan koneksi antara sensor dan Arduino benar.
+4.	Jalankan Simulasi di Proteus:
+o	Buka Proteus dan buat skematik sesuai dengan sambungan perangkat keras.
+o	Tambahkan Virtual Terminal dan sambungkan ke pin RX dan TX Arduino.
+o	Jalankan simulasi dan cek output di Virtual Terminal.
 Penggunaan
-Monitor Suhu di Serial Monitor:
-
-Buka Serial Monitor di Arduino IDE (Ctrl+Shift+M).
-Lihat data suhu dan informasi pribadi yang ditampilkan.
-Akses Data via Web Browser:
-
-Pastikan Arduino terhubung ke jaringan yang sama dengan komputer Anda.
-Buka browser dan masukkan IP address yang ditampilkan di Serial Monitor.
-Anda akan melihat data suhu dan informasi pribadi yang ditampilkan di halaman web.
+1.	Monitor Suhu di Serial Monitor:
+o	Buka Serial Monitor di Arduino IDE (Ctrl+Shift+M).
+o	Lihat data suhu dan informasi pribadi yang ditampilkan.
+2.	Akses Data via Web Browser:
+o	Pastikan Arduino terhubung ke jaringan yang sama dengan komputer Anda.
+o	Buka browser dan masukkan IP address yang ditampilkan di Serial Monitor.
+o	Anda akan melihat data suhu dan informasi pribadi yang ditampilkan di halaman web.
 Troubleshooting
-Virtual Terminal Tidak Menampilkan Data:
-
-Pastikan koneksi antara Arduino dan Virtual Terminal benar.
-Periksa pengaturan baud rate di Virtual Terminal dan pastikan sesuai dengan pengaturan di kode (Serial.begin(9600);).
-Data Tidak Muncul di Browser:
-
-Pastikan Ethernet Shield terhubung dengan benar.
-Pastikan Arduino menggunakan IP address yang valid dan tidak bentrok dengan perangkat lain di jaringan.
-Coba restart Arduino dan cek kembali koneksi jaringan.
+1.	Virtual Terminal Tidak Menampilkan Data:
+o	Pastikan koneksi antara Arduino dan Virtual Terminal benar.
+o	Periksa pengaturan baud rate di Virtual Terminal dan pastikan sesuai dengan pengaturan di kode (Serial.begin(9600);).
+2.	Data Tidak Muncul di Browser:
+o	Pastikan Ethernet Shield terhubung dengan benar.
+o	Pastikan Arduino menggunakan IP address yang valid dan tidak bentrok dengan perangkat lain di jaringan.
+o	Coba restart Arduino dan cek kembali koneksi jaringan.
 Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi lebih lanjut.
-
 Kontribusi
 Kontribusi selalu diterima! Silakan buat Pull Request atau buka Issue untuk mengajukan perbaikan atau fitur baru.
+________________________________________
+Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami melalui email yang tercantum di atas. Selamat mencoba!
+
+
+
